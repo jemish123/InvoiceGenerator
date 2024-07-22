@@ -1,23 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDF Generation using Python</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+    
+
 </head>
+
 <body>
-    <hr />
-    <p style="text-align: center;"><strong>Contract</strong></p>
-    <hr />
+    <div style="overflow-x: auto; margin: 1.27cm; border: 2px solid rgb(189, 189, 189)">
+        <!-- <div style="margin-top: 15px; margin-left: 5px; margin-right: 5px;">
+            <table>
+                <tr>
+                    <td colspan="9">
+                        <div style="float: left; padding-left: 5px;"><b>GSTIN : 22CBJPS5912H1ZL</b></div>
+                        <div style="float: right;">Original Copy</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="9">
+                        <div style="text-align: center;">
+                            <h3><u>TAX INVOICE</u></h3>
+                            <h1>MAA MAHAMAYA STEEL</h1>
+                            <h3>JARHABHATA MANDIR CHOWK, OM NAGAR, BILASPUR (C.G.)</h3>
+                            <p>Tel. : 9340247514, 6261419114</p>
+                            <br />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4" style="padding: 5px; text-align: left; width: 45%; font-size: 14px;">
+                        <div>
+                            <p>Party Details <span>&nbsp;:</span></p>
+                            <p>AAKASH RAJPUT</p>
+                            <p>USHLAPUR</p>
+                            <br />
+                            <br />
+                            <br />
+                            <p>GSTIN / UIN <span style="padding-left: 50px; padding-top: 50px;">:</span></p>
+                        </div>
+                    </th>
+                    <th style="padding: 5px; text-align: left; vertical-align: top; width: 55%; font-size: 14px; border-right: 1px;">
+                        <div>
+                            <p>Invoice No. 
+                                <span style="padding-left: 2.3cm; padding-right: 0;">:</span>
+                                <span>361/2024-25</span>
+                            </p>
+                            <p>
+                                Dated <span style="padding-left: 3.82cm; padding-right: 0;">:</span>
+                                <span>28-05-2024</span>
+                            </p>
+                            <p>
+                                Place of Supply <span style="padding-left: 1.02cm; padding-right: 0;">:</span>
+                                <span>Chhattisgarh (22)</span>
+                            </p>
+                            <p>
+                                Reverse Charge <span style="padding-left: 0.92cm; padding-right: 0;">:</span>
+                                <span>N</span>
+                            </p>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th style="width: 5px; padding: 0px;">S.N.</th>
+                    <th colspan="3" style="width: 40%;">Description of Goods</th>
+                    <th style="width: 20%;">HSN/SAC Code</th>
+                    <th style="width: 50px;">Qty.</th>
+                    <th style="width: 50px;">Unit</th>
+                    <th style="width: 50px;">Price</th>
+                    <th style="width: 50px;">Amount (Rs.)</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div> -->
+        <div style="margin-top: 15px; margin-left: 5px; margin-right: 5px;">
+            <table style="width: 100%; height: 100vh; border-collapse: collapse;">
+                <tr>
+                    <td colspan="9"></td>
+                </tr>
+                <tr>
+                    <td colspan="9"></td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
-    <p style="text-align: left;">I {{my_name}} am singing this contract...</p>
-    <p style="text-align: left;">The house has the following items:</p>
-    <ol>
-        <li style="text-align: left;">{{item1}}</li>
-        <li style="text-align: left;">{{item2}}</li>
-        <li style="text-align: left;">{{item3}}</li>
-    </ol>
-
-    <p style="text-align: left;">Date: {{today_date}}</p>
-    <p style="text-align: left;">Date: {{my_name}}</p>
+    <!--    <link rel="stylesheet" href="/style.css">-->
 </body>
+
 </html>
