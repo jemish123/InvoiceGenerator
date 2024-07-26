@@ -16,8 +16,8 @@ context = {'my_name': my_name, 'item1': item1, 'item2': item2, 'item3': item3,
 template_loader = jinja2.FileSystemLoader('template_html/')
 template_env = jinja2.Environment(loader=template_loader)
 
-template = template_env.get_template('pdf_file.html')
+template = template_env.get_template('models_v_11.html')
 output_text = template.render(context)
 
 config = pdfkit.configuration(wkhtmltopdf="/usr/bin/wkhtmltopdf")
-pdfkit.from_string(output_text, 'pdf_generated.pdf', configuration=config)
+pdfkit.from_string(output_text, 'models.pdf', configuration=config)

@@ -4,32 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c76a8a1-36e4-426f-93a7-561f7a161465" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pdf_generated.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_generated.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template_html/pdf_file.html" beforeDir="false" afterPath="$PROJECT_DIR$/template_html/pdf_file.html" afterDir="false" />
+    <list default="true" id="4c76a8a1-36e4-426f-93a7-561f7a161465" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;pdf_generated.pdf&#10;#&#9;template_html/pdf_file.html">
+      <change afterPath="$PROJECT_DIR$/template_html/models_v_11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDFGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PDFGenerator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2jaUQKhv8npW45jtctALYRgZKIO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python.PDFGenerator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "last_opened_file_path": "/home/jemish/PycharmProjects/InvoiceGenerator",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -48,6 +59,48 @@
       <option name="presentableId" value="Default" />
       <updated>1721624663898</updated>
     </task>
+    <task id="LOCAL-00001" summary="Invoice Generation Third Commit.">
+      <option name="closed" value="true" />
+      <created>1721653396741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721653396741</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Invoice Generation Third Commit.">
+      <option name="closed" value="true" />
+      <created>1721653523108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721653523108</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;pdf_generated.pdf&#10;#&#9;template_html/pdf_file.html">
+      <option name="closed" value="true" />
+      <created>1721653553941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721653553941</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Invoice Generation Second Commit." />
+    <MESSAGE value="Invoice Generation Third Commit." />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;pdf_generated.pdf&#10;#&#9;template_html/pdf_file.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;pdf_generated.pdf&#10;#&#9;template_html/pdf_file.html" />
   </component>
 </project>
